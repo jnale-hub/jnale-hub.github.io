@@ -23,7 +23,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 </head>
 
 <body>
@@ -290,91 +290,90 @@
         -->
 
         <section class="clients">
-
           <h3 class="h3">Tech Stack</h3><br>
-
+        
           <h4 class="h4 clients-title">Programming Languages:</h4>
-
+        
           <div class="tech-stack service-item">
-            <div class="tech-item">
-              <i class="fab fa-python"></i>
+            <div class="tech-item" onclick="openLink('https://www.python.org/')">
+              <i class="mdi mdi-language-python python-icon"></i>
               <span>Python</span>
             </div>
-            <div class="tech-item">
-              <i class="fab fa-js"></i>
+            <div class="tech-item" onclick="openLink('https://developer.mozilla.org/en-US/docs/Web/JavaScript')">
+              <i class="mdi mdi-language-javascript javascript-icon"></i>
               <span>JavaScript</span>
             </div>
-            <div class="tech-item">
-              <i class="fas fa-calendar"></i>
+            <div class="tech-item" onclick="openLink('https://en.cppreference.com/w/c/language')">
+              <i class="mdi mdi-language-c c-icon"></i>
               <span>C</span>
             </div>
           </div>
-
+        
           <h4 class="h4 clients-title">Web Development:</h4>
-
+        
           <div class="tech-stack service-item">
-            <div class="tech-item">
-              <i class="fab fa-html5"></i>
+            <div class="tech-item" onclick="openLink('https://developer.mozilla.org/en-US/docs/Web/HTML')">
+              <i class="mdi mdi-language-html5 html5-icon"></i>
               <span>HTML5</span>
             </div>
-            <div class="tech-item">
-              <i class="fab fa-css3-alt"></i>
+            <div class="tech-item" onclick="openLink('https://developer.mozilla.org/en-US/docs/Web/CSS')">
+              <i class="mdi mdi-language-css3 css3-icon"></i>
               <span>CSS3</span>
             </div>
-            <div class="tech-item">
-              <i class="fab fa-bootstrap"></i>
+            <div class="tech-item" onclick="openLink('https://getbootstrap.com/')">
+              <i class="mdi mdi-bootstrap bootstrap-icon"></i>
               <span>Bootstrap</span>
             </div>
-            <div class="tech-item">
-              <i class="fas fa-table"></i>
+            <div class="tech-item" onclick="openLink('https://tailwindcss.com/')">
+              <i class="mdi mdi-tailwind tailwind-icon"></i>
               <span>Tailwind</span>
             </div>
-            <div class="tech-item">
-              <i class="fab fa-react"></i>
+            <div class="tech-item" onclick="openLink('https://reactjs.org/')">
+              <i class="mdi mdi-react react-icon"></i>
               <span>React.js</span>
             </div>
           </div>
-
+        
           <h4 class="h4 clients-title">Backend Development:</h4>
-
+        
           <div class="tech-stack service-item">
-            <div class="tech-item">
-              <i class="fab fa-python"></i>
+            <div class="tech-item" onclick="openLink('https://www.djangoproject.com/')">
+              <i class="mdi mdi-language-python django-icon"></i>
               <span>Django</span>
             </div>
-            <div class="tech-item">
-              <i class="fab fa-python"></i>
+            <div class="tech-item" onclick="openLink('https://flask.palletsprojects.com/')">
+              <i class="mdi mdi-flask flask-icon"></i>
               <span>Flask</span>
             </div>
           </div>
-
+        
           <h4 class="h4 clients-title">Database Systems:</h4>
-
+        
           <div class="tech-stack service-item">
-            <div class="tech-item">
-              <i class="fas fa-database"></i>
+            <div class="tech-item" onclick="openLink('https://www.sqlite.org/')">
+              <i class="mdi mdi-database sqlite-icon"></i>
               <span>SQLite</span>
             </div>
-            <div class="tech-item">
-              <i class="fas fa-database"></i>
+            <div class="tech-item" onclick="openLink('https://www.mysql.com/')">
+              <i class="mdi mdi-database mysql-icon"></i>
               <span>MySQL</span>
             </div>
           </div>
-
+        
           <h4 class="h4 clients-title">Version Control:</h4>
-
+        
           <div class="tech-stack service-item">
-            <div class="tech-item">
-              <i class="fab fa-git"></i>
+            <div class="tech-item" onclick="openLink('https://git-scm.com/')">
+              <i class="mdi mdi-git git-icon"></i>
               <span>Git</span>
             </div>
-            <div class="tech-item">
-              <i class="fab fa-github"></i>
+            <div class="tech-item" onclick="openLink('https://github.com/')">
+              <i class="mdi mdi-github github-icon"></i>
               <span>GitHub</span>
             </div>
           </div>
-
-        </section>
+        </section> 
+        
 
       </article>
 
@@ -701,25 +700,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web application">
-              <a href="https://github.com/jnale-hub/StockFinance">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/cryptoFinance.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">StockFinance</h3>
-
-                <p class="project-category">A Flask web application which users can “buy” and “sell” real time stocks
-                  fetched from IEX API.</p>
-
-              </a>
-            </li>
-
+            
             <li class="project-item  active" data-filter-item data-category="web application">
               <a href="https://github.com/jnale-hub/Wiki-Info">
 
@@ -741,6 +722,26 @@
               </a>
             </li>
 
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/jnale-hub/mailbox">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mailbox.png" alt="MailBox" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MailBox</h3>
+
+                <p class="project-category">A JavaScript-based email client app that allows users to send, receive,
+                  reply to, and archive emails. The app communicates with a Django back-end through API calls, enabling
+                  seamless email management with data stored in an SQL database.</p>
+
+              </a>
+            </li>
+
             <li class="project-item  active" data-filter-item data-category="artificial intelligence">
               <a href="https://github.com/jnale-hub/TicTacToe">
 
@@ -758,6 +759,43 @@
                   unbeatable game of Tic-Tac-Toe against you. It showcases advanced AI techniques and ensures that you
                   cannot defeat it.</p>
 
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/jnale-hub/StockFinance">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cryptoFinance.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">StockFinance</h3>
+
+                <p class="project-category">A Flask web application which users can “buy” and “sell” real time stocks
+                  fetched from IEX API.</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web application">
+              <a href="https://github.com/jnale-hub/network">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/network.png" alt="Network" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Network</h3>
+
+                <p class="project-category">Social networking website, built with Python Django, allows users to view,
+                  search, and create posts. Users can also edit their posts, like content, follow others, and manage
+                  their profiles.</p>
               </a>
             </li>
 
@@ -818,25 +856,6 @@
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web application">
-              <a href="https://github.com/jnale-hub/mailbox">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="logo-github"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/mailbox.png" alt="MailBox" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MailBox</h3>
-
-                <p class="project-category">A JavaScript-based email client app that allows users to send, receive,
-                  reply to, and archive emails. The app communicates with a Django back-end through API calls, enabling
-                  seamless email management with data stored in an SQL database.</p>
-
-              </a>
-            </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="https://github.com/jnale-hub/search">

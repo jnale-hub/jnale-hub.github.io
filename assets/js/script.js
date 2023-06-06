@@ -1,6 +1,8 @@
 'use strict';
 
-
+function openLink(url) {
+  window.open(url, '_blank');
+}
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
