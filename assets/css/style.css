@@ -339,6 +339,12 @@ article.active {
   transition: transform 0.3s ease-in-out;
 }
 
+@media (max-width: 767px) {
+  .tech-item i {
+    font-size: 75px;
+  }
+}
+
 .clients .service-item {
   margin: 15px 0;
 }
