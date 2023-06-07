@@ -4,52 +4,83 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Mark Delima | Blogs</title>
-  <!-- Tailwind CSS CDN -->
+  <title>John Mark's Coding Corner</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Additional custom styles can be added here */
+  </style>
 </head>
 
 <body class="bg-gray-100">
-  <header class="bg-white shadow">
-    <div class="container mx-auto px-4 py-4">
-      <h1 class="text-2xl font-bold text-gray-800">My Blog</h1>
+  <!-- Navbar -->
+  <nav class="bg-blue-500 text-white px-4 py-3">
+    <div class="container mx-auto flex items-center justify-between">
+      <a href="#" class="text-2xl font-bold">John Mark's Coding Corner</a>
+      <button class="block md:hidden focus:outline-none">
+        <svg class="text-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+      <div class="hidden md:flex space-x-4">
+        <a href="#" class="text-white hover:text-gray-200">Home</a>
+        <a href="#" class="text-white hover:text-gray-200">Blog</a>
+        <a href="#" class="text-white hover:text-gray-200">About</a>
+        <a href="#" class="text-white hover:text-gray-200">Contact</a>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-2xl mx-auto">
-      <article class="bg-white shadow p-6 rounded-lg">
-        <h2 class="text-xl font-bold mb-4">Assessing the Challenges of Filipinos in the Face of Artificial Intelligence
-        </h2>
-        <img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="App Development" class="mx-auto my-4 rounded-lg" style="max-width: 100%; max-height: 400px;">
-        <p class="text-gray-600 mb-4">Posted on <span class="font-bold">June 4, 2023</span> by <span
-            class="font-bold">John Mark Delima</span></p>
-        <p class="text-gray-800">In an era dominated by rapid advancements in artificial intelligence (AI), it becomes
-          imperative to examine the challenges and potential setbacks that Filipinos may encounter as they confront this
-          formidable technology. This blog post aims to delve into the negative aspects and thought-provoking dilemmas
-          surrounding the readiness of Filipinos for AI, shedding light on the obstacles they face and the critical
-          questions that arise amidst this uneasy alliance.</p>
-        <a href="06-04-23-AI.html" class="text-blue-600 font-bold hover:underline">Read More</a>
-      </article>
+  <!-- Mobile Menu -->
+  <div class="hidden bg-blue-500 text-white py-2 px-4 md:hidden">
+    <a href="#" class="block text-white hover:text-gray-200">Home</a>
+    <a href="#" class="block text-white hover:text-gray-200">Blog</a>
+    <a href="#" class="block text-white hover:text-gray-200">About</a>
+    <a href="#" class="block text-white hover:text-gray-200">Contact</a>
+  </div>
 
-      <article class="bg-white shadow p-6 rounded-lg mt-4">
-        <h2 class="text-xl font-bold mb-4">Another Blog Post Title</h2>
-        <p class="text-gray-600 mb-4">Posted on <span class="font-bold">June 2, 2023</span> by <span
-            class="font-bold">Jane Smith</span></p>
-        <p class="text-gray-800">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non metus id est
-          consequat semper. Sed fermentum, elit et efficitur ultrices, velit felis pharetra quam, ac interdum ipsum diam
-          sed nisi.</p>
-        <a href="06-04-23-AI.html" class="text-blue-600 font-bold hover:underline">Read More</a>
-      </article>
+  <!-- Main Content -->
+  <div class="container mx-auto mt-8 px-4">
+    <h1 class="text-4xl font-bold mb-4">Welcome to John Mark's Coding Corner</h1>
+    <p class="text-gray-700 mb-6">Explore the world of coding and technology through my blog posts.</p>
+
+    <!-- Your blog post previews can be added here -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded shadow p-4">
+        <h2 class="text-xl font-bold mb-2">Blog Post Title</h2>
+        <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mi a mi placerat ultricies.</p>
+        <a href="#" class="text-blue-500 hover:text-blue-700">Read More</a>
+      </div>
+      <div class="bg-white rounded shadow p-4">
+        <h2 class="text-xl font-bold mb-2">Blog Post Title</h2>
+        <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mi a mi placerat ultricies.</p>
+        <a href="#" class="text-blue-500 hover:text-blue-700">Read More</a>
+      </div>
+      <div class="bg-white rounded shadow p-4">
+        <h2 class="text-xl font-bold mb-2">Blog Post Title</h2>
+        <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vitae mi a mi placerat ultricies.</p>
+        <a href="#" class="text-blue-500 hover:text-blue-700">Read More</a>
+      </div>
     </div>
-  </main>
+  </div>
 
-  <footer class="bg-gray-200 py-4">
-    <div class="container mx-auto px-4 text-center">
-      <p class="text-gray-600">© 2023 My Blog. All rights reserved.</p>
+  <!-- Footer -->
+  <footer class="bg-gray-200 text-gray-700 px-4 py-3 mt-8">
+    <div class="container mx-auto">
+      <p>&copy; 2023 John Mark's Coding Corner. All rights reserved.</p>
     </div>
   </footer>
+
+  <!-- Responsive menu functionality -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var navToggle = document.querySelector('.nav-toggle');
+      var navMenu = document.querySelector('.nav-menu');
+
+      navToggle.addEventListener('click', function () {
+        navMenu.classList.toggle('hidden');
+      });
+    });
+  </script>
 </body>
 
 </html>
