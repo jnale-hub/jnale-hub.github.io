@@ -600,6 +600,9 @@ main {
   margin-bottom: 15px;
 }
 
+.about-text .about-heading{
+  font-size: var(--fs-3);
+}
 
 
 /**
