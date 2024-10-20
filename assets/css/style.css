@@ -2139,6 +2139,7 @@ textarea.form-input::-webkit-resizer {
     position: sticky;
     top: 60px;
     max-height: max-content;
+    min-width: fit-content;
     height: 100%;
     margin-bottom: 0;
     padding-top: 60px;
